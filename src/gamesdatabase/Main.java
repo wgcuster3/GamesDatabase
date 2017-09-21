@@ -51,7 +51,7 @@ public class Main {
         } catch (IOException exception){
             System.out.println("Error reading file: " + filename);
         }
-        
+        //test
         SQLFunctions dbConn = new SQLFunctions(url, username, password);
         Games games = new Games(dbConn);
         
